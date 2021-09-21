@@ -1,16 +1,33 @@
-# flutter_people_demo
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-A new Flutter application.
+Flutter People Demo
+============
 
-## Getting Started
+**Flutter** application built for in-house demonstration purposes.
 
-This project is a starting point for a Flutter application.
+Application showcases contacting and pulling https://randomuser.me API for showing random users.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+<p align="center">
+  <img width=250 height=500 src="https://i.ibb.co/G963L5j/Simulator-Screen-Shot-i-Phone-13-2021-09-21-at-14-38-14.png">
+  <img width=250 height=500 src="https://i.ibb.co/KFT4C7m/Simulator-Screen-Shot-i-Phone-13-2021-09-21-at-14-38-25.png">
+</p>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## Features
+- **Dio** HTTP client (https://pub.dev/packages/dio)
+- Clean and modern design
+- Android, iOS, Web support
+- https://randomuser.me API usage
+
+---
+
+## Setup
+Clone this repo to your desktop and launch the application.
+
+---
+
+## Usage
+Run the application and enjoy!
