@@ -1,7 +1,9 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_people_demo/home_new/bloc/home_page_bloc.dart';
+import 'package:flutter_people_demo/rest_client.dart';
 
-import 'home/home_page.dart';
+import 'home_new/home_page_new.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,7 +19,10 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.red,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomePage(),
+      home: BlocProvider<HomePageBloc>(
+        create: (context) => HomePageBloc(client: RestClient()),
+        child: HomePageNew(),
+      ),
     );
   }
 }
